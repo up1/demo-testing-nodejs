@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
+    "coveralls": "^3.0.9",
+    "cross-env": "^6.0.3",
     "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
   "scripts": {
+    "start-dev": "nodemon index.js",
     "test": "jest --watchAll"
   },
   "jest": {
