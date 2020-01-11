@@ -14,12 +14,14 @@
     "jest": "^24.9.0",
     "nock": "^11.7.2",
     "nodemon": "^2.0.2",
+    "prettier": "1.19.1",
     "supertest": "^4.0.2"
   },
   "scripts": {
     "start-dev": "nodemon index.js",
     "test": "jest",
-    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "lint": "prettier --write '**/*.js' '!coverage/**'"
   },
   "jest": {
     "testEnvironment": "node",
