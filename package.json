@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
   },
@@ -11,6 +12,7 @@
     "coveralls": "^3.0.9",
     "cross-env": "^6.0.3",
     "jest": "^24.9.0",
+    "nock": "^11.7.2",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
